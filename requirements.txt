@@ -7,4 +7,5 @@ catboost
 xgboost
 dill
 flask
+mlflow==2.5.0
 -e .
