@@ -1,0 +1,12 @@
+name: check push to main branch
+
+on:
+  push:
+    branches: 
+      -main
+
+jobs:
+  hello-world:
+  steps:
+    -name: check pushing
+    -run: echo "there is a pushing to {{github.ref}}"
